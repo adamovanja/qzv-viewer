@@ -25,4 +25,9 @@ To run the demo clone into the repository:
 git clone https://github.com/adamovanja/qzv-viewer.git
 ```
 
-and open the notebook in `qzv-viewer/qzv-viewer/src/tests/demo_jupyter.ipynb` with jupyter notebook.
+and open the demo jupyter notebook:
+```
+cd src/tests/
+jupyter notebook demo_jupyter.ipynb
+
+```
