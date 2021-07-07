@@ -9,10 +9,20 @@ conda create -y -n qzv-viewer
 conda activate qzv-viewer
 
 conda install \
-  -c conda-forge -c bioconda -c qiime2 -c defaults \
-  qiime2 q2cli xmltodict
+  -y -c conda-forge -c bioconda -c qiime2 -c defaults \
+  qiime2 q2cli xmltodict jupyter
 ```
 Now install qzv-viewer within:
 ```
 pip install git+https://github.com/adamovanja/qzv-viewer.git
 ```
+
+# Demo
+
+To run the demo clone into the repository:
+
+```
+git clone https://github.com/adamovanja/qzv-viewer.git
+```
+
+and open the notebook in `qzv-viewer/qzv-viewer/src/tests/demo_jupyter.ipynb` with jupyter notebook.
