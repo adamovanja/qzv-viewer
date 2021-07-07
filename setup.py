@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="display-qzv",
+    name="qzv-viewer",
     version="0.0.1",
     author="Anja Adamov",
     author_email="anja.adamov@hest.ethz.ch",
