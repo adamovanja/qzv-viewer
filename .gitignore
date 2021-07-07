@@ -133,6 +133,7 @@ dmypy.json
 
 # VSCode configuration
 .vscode/
-
+# notebook configuration
+.DS_Store
 # display-qzv specific:
 src/tests/extract/
