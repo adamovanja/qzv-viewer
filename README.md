@@ -27,7 +27,7 @@ git clone https://github.com/adamovanja/qzv-viewer.git
 
 and open the demo jupyter notebook:
 ```
-cd src/tests/
+cd qzv-viewer/src/tests/
 jupyter notebook demo_jupyter.ipynb
 
 ```
